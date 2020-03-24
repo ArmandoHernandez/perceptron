@@ -1,4 +1,4 @@
-FROM    python:3.6.10-slim
+FROM    python:3.6.10-slim-stretch
 
 WORKDIR /usr/src/app/
 
@@ -7,7 +7,7 @@ RUN     pip install --no-cache-dir -r requirements.txt
 
 COPY    . .
 
-RUN     mkdir www && mv perceptron.html www/
+RUN     mkdir www && mv perceptron.html www/index.html
 
 ENTRYPOINT [ "python", "./perceptron.py" ]
 CMD     [""]
