@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=500px height=400px src="./perceptron.png" alt="Project logo"></a>
+ <img width=500px height=500px src="./perceptron.png" alt="Project logo"></a>
 </p>
 
 <h1 align="center">Perceptron</h1>
