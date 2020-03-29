@@ -7,7 +7,8 @@ RUN     pip install --no-cache-dir -r requirements.txt
 
 COPY    . .
 
-RUN     mkdir www && mv perceptron.html www/index.html
+RUN     mkdir www && \
+        mv perceptron.html www/index.html
 
 ENTRYPOINT [ "python", "-u", "./perceptron.py" ]
 CMD     [""]
