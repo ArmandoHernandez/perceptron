@@ -9,5 +9,5 @@ COPY    . .
 
 RUN     mkdir www && mv perceptron.html www/index.html
 
-ENTRYPOINT [ "python", "./perceptron.py" ]
+ENTRYPOINT [ "python", "-u", "./perceptron.py" ]
 CMD     [""]
