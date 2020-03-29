@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=700px height=500px src="./perceptron.png" alt="Project logo"></a>
+ <img width=500px height=400px src="./perceptron.png" alt="Project logo"></a>
 </p>
 
 <h1 align="center">Perceptron</h1>
@@ -12,7 +12,7 @@
     <br> 
 </p>
 
-## 📝 Table of Contents
+## Table of Contents
 
 - [About](#about)
 - [Perceptron Implementation](#perceptron_impl)
@@ -21,7 +21,7 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
+## About <a name = "about"></a>
 
 This little project is in one hand an implementation example of the perceptron learning algorithm written in python and in the other hand an example of a 'dockerized' service that receives a set of 2D scattered points along with the class they belong to (i.e. '1' or '0' - take a look at the [data](./data.csv)) and then it trains the data to the perceptron implementation to find the line that better divides the data.
 
@@ -31,7 +31,7 @@ docker pull eindemwort/perceptron
 ```
 
 
-## 🔧 Perceptron Implementation <a name = "perceptron_impl"></a>
+## Perceptron Implementation <a name = "perceptron_impl"></a>
 
 The perceptron class implementation receives as parameters:
 * a data frame (i.e. the set of 2D scattered points). This must be a .csv file
@@ -64,7 +64,7 @@ You can also substitute the flags as follows:
 
 For default values of these parameters take a look at [the implementation](./perceptron.py).
 
-## 🐳 Docker container <a name = "dock_cont"></a>
+## Docker container <a name = "dock_cont"></a>
 
 The docker image is built as follows:
 
@@ -79,12 +79,12 @@ docker run --rm -p 127.0.0.1:8080:8080 perceptron:1.0
 
 The user can also pass the same [arguments of the perceptron script](#script_ussage).
 
-## ✍️ Author <a name = "author"></a>
+## Author <a name = "author"></a>
 
 - [@armhzjz](https://github.com/armhzjz)
 
 Any hint or advice on how this could be improved are welcome!
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+## Acknowledgements <a name = "acknowledgement"></a>
 
  I took the original implementation of a perceptron algorithm from a course on Machine Learning I took on [Udacity](https://github.com/udacity).
