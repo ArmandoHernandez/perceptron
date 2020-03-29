@@ -44,7 +44,6 @@ class Perceptron:
         plt.xticks()
         plt.yticks()
 
-        #plt.show()
         plt.savefig(self.targetIMGPath + '/perceptron_graph.png')
 
 
