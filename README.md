@@ -25,7 +25,7 @@
 
 This little project is in one hand an implementation example of the perceptron learning algorithm written in python and in the other hand an example of a 'dockerized' service that receives a set of 2D scattered points along with the class they belong to (i.e. '1' or '0' - take a look at the [data](./data.csv)) and then it trains the data to the perceptron implementation to find the line that better divides the data.
 
-The docker image of this [docker] service example can be downloaded from docker hub:
+The docker image of this [docker] service example can be downloaded from [this](https://hub.docker.com/r/eindemwort/perceptron) docker hub repo:
 ```
 docker pull eindemwort/perceptron
 ```
