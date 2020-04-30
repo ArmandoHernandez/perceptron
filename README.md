@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
+  <a href="https://en.wikipedia.org/wiki/Perceptron" rel="noopener">
  <img width=500px height=500px src="./perceptron.png" alt="Project logo"></a>
 </p>
 
