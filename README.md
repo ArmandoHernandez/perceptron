@@ -64,6 +64,8 @@ You can also substitute the flags as follows:
 
 For default values of these parameters take a look at [the implementation](./perceptron.py).
 
+Since gradient descent is at the heart of perceptrons, it might also be of interest to the reader to take a look at this jupyter notebook for a better insight and comprehension of how it (i.e. gradient descent) works.
+
 ## Docker container <a name = "dock_cont"></a>
 
 The docker image is built as follows:
