@@ -15,7 +15,7 @@
 ## Table of Contents
 
 - [About](#about)
-- [Perceptron Implementation](#perceptron_impl)
+- [Perceptron Implementation](#implementation)
 - [Perceptron script ussage](#script_ussage)
 - [Docker container](#dock_cont)
 - [Author](#author)
@@ -31,7 +31,7 @@ docker pull eindemwort/perceptron
 ```
 
 
-## Perceptron Implementation <a name = "perceptron_impl"></a>
+## Perceptron Implementation <a name = "implementation"></a>
 
 The perceptron class implementation receives as parameters:
 * a data frame (i.e. the set of 2D scattered points). This must be a .csv file
