@@ -27,7 +27,7 @@ This little project is in one hand an implementation example of the perceptron l
 
 The docker image of this [docker] service example can be downloaded from [this](https://hub.docker.com/r/eindemwort/perceptron) docker hub repo:
 ```
-docker pull eindemwort/perceptron
+docker pull armhzjz/perceptron
 ```
 
 
